@@ -178,7 +178,7 @@ PrefabInstance:
     - target: {fileID: 8190479278352029799, guid: eebf0553879466544a05c1a087f1ff7e, type: 3}
       propertyPath: _lineRenderer
       value: 
-      objectReference: {fileID: 2042337228}
+      objectReference: {fileID: 1895045860}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -604,6 +604,7 @@ GameObject:
   - component: {fileID: 1180026556}
   - component: {fileID: 1180026555}
   - component: {fileID: 1180026554}
+  - component: {fileID: 1180026558}
   m_Layer: 0
   m_Name: Platform For Hook
   m_TagString: Untagged
@@ -750,7 +751,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1472534541
+--- !u!114 &1180026558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180026553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: dae13f5c346d9f548bec43742ed60e72, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: 886cd45f-e1d6-48c3-9883-5488c3120814
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!1001 &1895045859
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -758,59 +789,63 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4221484234471950116, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
+    - target: {fileID: 4221484234471950116, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4221484234471950116, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
+    - target: {fileID: 4221484234471950116, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4221484234471950116, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
+    - target: {fileID: 4221484234471950116, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4221484234471950116, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
+    - target: {fileID: 4221484234471950116, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4221484234471950116, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
+    - target: {fileID: 4221484234471950116, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4221484234471950116, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
+    - target: {fileID: 4221484234471950116, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4221484234471950116, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
+    - target: {fileID: 4221484234471950116, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4221484234471950116, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
+    - target: {fileID: 4221484234471950116, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4221484234471950116, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
+    - target: {fileID: 4221484234471950116, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4221484234471950116, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
+    - target: {fileID: 4221484234471950116, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4221484234471950118, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
+    - target: {fileID: 4221484234471950118, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
       propertyPath: m_Name
       value: LineRenderer
       objectReference: {fileID: 0}
+    - target: {fileID: 4221484234471950119, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 679ff2656b6b59c4ea80b366736ce0d6, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
---- !u!120 &2042337228 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
+--- !u!120 &1895045860 stripped
 LineRenderer:
-  m_CorrespondingSourceObject: {fileID: 4221484234471950119, guid: 475b071d7167dfb488a747b67ed6f333, type: 3}
-  m_PrefabInstance: {fileID: 1472534541}
+  m_CorrespondingSourceObject: {fileID: 4221484234471950119, guid: 6da351b92937ec44aab0a236cda87af6, type: 3}
+  m_PrefabInstance: {fileID: 1895045859}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -821,4 +856,4 @@ SceneRoots:
   - {fileID: 686634913}
   - {fileID: 1180026557}
   - {fileID: 393361294}
-  - {fileID: 1472534541}
+  - {fileID: 1895045859}

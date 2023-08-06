@@ -14,6 +14,7 @@ namespace GrapplingHook
         [SerializeField] private GrapplingHookRaycaster _raycatser;
 
         public static event Action<InputMasStates> MapStateChanged;
+        public static event Action<bool> Hooked;
 
         private bool _hooked;
         private IInput _input = new DesktopInput();
@@ -52,6 +53,7 @@ namespace GrapplingHook
                 _joint.distance = _rope.DistanceToNewRotationPoint;
                 _joint.enabled = true;
                 _hooked = true;
+                Hooked?.Invoke(_hooked);
                 MapStateChanged?.Invoke(InputMasStates.OnHook);
             }
         }
@@ -61,6 +63,7 @@ namespace GrapplingHook
             _rope.Terminate();
             _joint.enabled = false;
             _hooked = false;
+            Hooked?.Invoke(_hooked);
             MapStateChanged?.Invoke(InputMasStates.OnGround);
         }
 
