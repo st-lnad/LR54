@@ -1,6 +1,7 @@
 using UnityEngine;
+using Source.CustomInput;
 
-namespace Source
+namespace Source.OldHook
 {
     public class Hook : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Source
+namespace Source.CustomInput
 {
     public class DesktopInput : IInput
     {
