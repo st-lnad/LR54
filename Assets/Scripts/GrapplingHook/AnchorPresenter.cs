@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Source.GrapplingHook3
+namespace GrapplingHook
 {
     public class AnchorPresenter : MonoBehaviour
     {

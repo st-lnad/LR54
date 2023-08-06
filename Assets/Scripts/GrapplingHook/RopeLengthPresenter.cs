@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using Source.GrapplingHook3;
 
-namespace Source.GrapplingHook3
+namespace GrapplingHook
 {
     public class RopeLengthPresenter : MonoBehaviour
     {
@@ -13,10 +10,12 @@ namespace Source.GrapplingHook3
         {
             Rope.RopeLengthChanged += OnRopeLengthChanged;
         }
+
         private void OnDisable()
         {
             Rope.RopeLengthChanged += OnRopeLengthChanged;
         }
+
         private void OnRopeLengthChanged(float ropeLength)
         {
             _ropeLength = ropeLength;
