@@ -50,7 +50,6 @@ namespace GrapplingHook
         public event Action RotationPointChanged;
         public static event Action<float> RopeLengthChanged;
 
-
         public void Initialize(Transform player, Vector3 targetPoint)
         {
             _player = player;

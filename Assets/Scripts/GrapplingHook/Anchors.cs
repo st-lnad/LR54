@@ -16,6 +16,7 @@ namespace GrapplingHook
         public int Length => _points.Count;
 
         public void AddRotationPoint(Vector2 point)
+
         {
             var newAnchor = Instantiate(_anchorPrefab);
             newAnchor.transform.position = point;
