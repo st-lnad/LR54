@@ -1,12 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class AnchorPresenter : MonoBehaviour
+namespace GrapplingHook
 {
-    private void OnDrawGizmos()
+    public class AnchorPresenter : MonoBehaviour
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawSphere(gameObject.transform.position, 0.1f);
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawSphere(gameObject.transform.position, 0.1f);
+        }
     }
 }

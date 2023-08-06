@@ -1,5 +1,7 @@
 fileFormatVersion: 2
+
 guid: 53011f4ab3284be43bd09c8bc4503796
+
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,12 +22,16 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+
     flipGreenChannel: 0
+
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+
   ignoreMipmapLimit: 0
+
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -116,7 +122,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -135,6 +140,9 @@ TextureImporter:
     nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

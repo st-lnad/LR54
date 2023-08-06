@@ -1,0 +1,188 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "OnHook",
+            "id": "48c556fb-a2ac-4d45-944a-3793b4fcb3c5",
+            "actions": [
+                {
+                    "name": "Swing",
+                    "type": "Value",
+                    "id": "60b93d39-c02f-4cf3-b730-51268c777ad4",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Uping",
+                    "type": "Button",
+                    "id": "fb26905a-5ff8-4e0b-ada5-2b075e9b467a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ShootHook",
+                    "type": "Button",
+                    "id": "3548e934-ddc9-4370-abc6-0dc6e9531cdb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ReturnHook",
+                    "type": "Button",
+                    "id": "4f4e7570-a291-4b9e-87b0-50eda69e1bd5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "cebfe017-c709-421a-b602-750d98454994",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Swing",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "a395717b-3b06-49be-9c9e-638f373cb6b8",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Swing",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "84c5001b-ac61-49bc-a3aa-80e0be2b689c",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Swing",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "cdbf7c70-769b-45b4-a817-f3bb157b86be",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Swing",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "59b7fb33-cabc-4020-8a6e-b0cee36451ce",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Swing",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "29795e42-799d-4e96-8cb5-7646141038d3",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Uping",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "f691a375-1603-40f1-9812-47edd24d9d06",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Uping",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "fb27c5a0-5ffe-49d8-9350-ca378d9ba237",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Uping",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "0dc7f00e-2c9a-41cf-8e4b-47939c136526",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShootHook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "47926bae-a851-44d8-8263-3b08384e9ab6",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReturnHook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "OnGround",
+            "id": "886cd45f-e1d6-48c3-9883-5488c3120814",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "d13b003a-f600-49d3-ba92-361d61e5ac7f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3a1c2699-45f1-4b69-b17c-d215d0ef6719",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

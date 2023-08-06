@@ -1,4 +1,4 @@
-﻿namespace Source
+﻿namespace CustomInput
 {
     public interface IInput
     {
